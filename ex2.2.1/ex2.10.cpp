@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 
 
 std::string global_str;
@@ -8,7 +9,7 @@ int main() {
 	int local_int;
 	std::string local_str;
 
-	std::cout << global_str << std::endl;
-	std::cout << global_int << std::endl;
+	std::cout<<global_str<<std::endl;
+	std::cout<<global_int<<std::endl;
 	
 }
