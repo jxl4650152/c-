@@ -1,12 +1,13 @@
 #include<iostream>
 
-int i = 42;
+
 
 int main() {
-	int i = 100;
-	int j = i;
+	int i, &ri = i;
 
-	std::cout << "The value of J is " << j << std::endl;
+	i = 5;
+	ri = 10;
+	std::cout << i << ri << std::endl;
 
 	return 0;
 	
